@@ -1,0 +1,79 @@
+@charset "UTF-8";
+.Mainpage{
+	color: white;
+	font-family: mundial, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 150px;
+	text-align: center;
+	margin-top: 5%;
+    width:100%;
+    align-content: center;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+/* Clearfix (clear floats) */
+
+.content {
+	color: white;
+	font-family: mundial, sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+	font-style: normal;
+	text-align: center;
+	padding: 0px 1in;	
+	
+}
+.row {
+	width:100%;
+	height:400px;
+  content: "";
+  clear: both;
+	color: white;
+	display: flex;
+	justify-content: space-around;
+	
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20%;
+ 
+}
+
+#img2 {
+	margin-top: 30px;
+	
+}
+.Logotext {
+	width: 100%;
+    margin-top: 0.8in;
+	color: white;
+	display: flex;
+	justify-content: space-around;
+	margin-left: 50px;
+	font-family: mundial, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 50px;
+}
+
+.Clothing {
+	margin-left: 96px;
+}
+
+.Art {
+	margin-left: 46px;
+}
+
+.Design {
+	margin-right: 95px;
+	margin-left: 30px;
+}
+
